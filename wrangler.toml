@@ -1,0 +1,12 @@
+name = "ogx-shop"
+main = "worker.js"
+compatibility_date = "2026-05-26"
+
+[[kv_namespaces]]
+binding = "OGX_SHOP_STATE"
+id = "00000000000000000000000000000000"
+preview_id = "00000000000000000000000000000000"
+
+[[queues.producers]]
+binding = "OGX_SHOP_QUEUE"
+queue = "ogx-shop-events"

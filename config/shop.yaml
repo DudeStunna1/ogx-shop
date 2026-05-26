@@ -1,0 +1,21 @@
+shop:
+  id: ogx-shop
+  name: OGX Shop
+  region: global
+  currency: USD
+  licensing: true
+commerce:
+  payment_mode: metadata-only
+  card_data_policy: prohibited
+  checkout_integrity_hash: sha256
+runtime:
+  endpoints:
+    - GET /health
+    - GET /shop/status
+    - GET /products
+    - POST /products
+    - GET /offers
+    - POST /checkout/session
+cloudflare:
+  kv_namespace: OGX_SHOP_STATE
+  queue: OGX_SHOP_QUEUE

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "prod_starter_kit",
+    "name": "OGX Starter Kit",
+    "description": "Creator commerce starter assets and onboarding templates.",
+    "priceCents": 1900,
+    "currency": "USD",
+    "licenseType": "single-seat",
+    "active": true,
+    "metadata": {
+      "category": "digital"
+    }
+  },
+  {
+    "id": "prod_shop_pro",
+    "name": "OGX Shop Pro Subscription",
+    "description": "Monthly metadata subscription for advanced monetization automations.",
+    "priceCents": 4900,
+    "currency": "USD",
+    "licenseType": "subscription",
+    "active": true,
+    "metadata": {
+      "interval": "month"
+    }
+  }
+]
