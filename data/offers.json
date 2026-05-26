@@ -1,0 +1,10 @@
+[
+  {
+    "id": "offer_creator_launch",
+    "name": "Creator Launch Discount",
+    "type": "percent",
+    "value": 10,
+    "productIds": ["prod_starter_kit"],
+    "active": true
+  }
+]
